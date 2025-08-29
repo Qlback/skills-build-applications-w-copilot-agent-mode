@@ -1,0 +1,60 @@
+
+body {
+  background: #181818 !important;
+  color: #ff7518 !important;
+  font-family: 'Creepster', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar, .navbar-nav, .navbar-brand, .nav-link {
+  background: #1a1a1a !important;
+  color: #ff7518 !important;
+  font-family: 'Creepster', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #fff200 !important;
+  text-shadow: 0 0 5px #ff7518, 0 0 10px #ff7518;
+}
+
+.card {
+  background: #222 !important;
+  border: 2px solid #ff7518;
+  color: #ff7518;
+  box-shadow: 0 0 20px 2px #ff751833;
+}
+
+.table-dark {
+  background: #2d2d2d !important;
+  color: #ff7518 !important;
+}
+
+.btn, .btn-lg, .btn-success, .btn-warning {
+  background: #ff7518 !important;
+  border: none;
+  color: #181818 !important;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff7518aa;
+  transition: background 0.2s, color 0.2s;
+}
+.btn:hover, .btn:focus {
+  background: #fff200 !important;
+  color: #181818 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff7518 !important;
+  text-shadow: 0 0 5px #ff7518, 0 0 10px #ff7518;
+  font-family: 'Creepster', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff7518;
+  border-radius: 5px;
+}
+
+/* Halloween font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
